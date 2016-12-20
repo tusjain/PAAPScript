@@ -1,0 +1,23 @@
+# Error messages
+# Dec 20, 2016
+ERROR_CODES = {
+    # For quotes that didn't get terminated
+    'unterminated_quote': ["Ab dekh lete hain kya karna hai, nahin toh mein 67 MLAs lekar alag ho jaoonga, aap log chalaiye Aam" +
+			   "Aadmi Party…mujhe kuch lena dena nahin hai."] 
+    # If they try to use a word that isn't in PAAPScript vocabulary
+    'nonword': ["Modi is a coward and a psycopath"],
+    # If they try to use a word that we've explicitly banned
+    'badword': ["Evey one is against AAP"],
+    # Generic errors for when we're lazy
+    'default': ["People like me the way I am"],
+    # If they try to run on a PC which has not recently visited APP's website
+    'non_aap': ["donate to aap, contact Rajendra Prasad"],
+    # If they try to run on a PC which has recently visited BJP's or RSS's website
+    'non_BJP': ["You bhakth, PAAPScript does not oblige you"],
+    # Let them know we don't need to run as root
+    'root': ['AAP will send Shila Dixit to jail :-)'],
+    # If we're not happy with one of this process's SSL certificates
+    'ssl': ["An 'extremely credible source' has called my office and told me that one of this process's SSL certificates is a fraud."],
+	# If they try to run on a PC which has recently used to read a news item by Trinamool Congress or Mamata Banerjee
+    'root': ['AAP supports Mamata Di because she opposes Modi :-)']
+}

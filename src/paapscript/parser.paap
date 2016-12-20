@@ -1,0 +1,11 @@
+# Parser for PAAPScript
+# Dec 03, 2016
+
+from ast import *
+
+from paapscript.constants import *
+
+
+class Parser:
+
+# parser code will be attempted after consultaion with Lalu Prasad ji, Mamata Di and ISI

@@ -1,0 +1,7 @@
+# disallowed word list is determined on whims of Shri Shri Arvind Kejriwal ji.
+#There are two categories of disallowed words - Disallowed by PAAP follower and others. 
+#Curently there are no words in Disallowed words by PAAP followers list. 
+#In second list (Disallowed by others) at present there are few words.
+# Dec 20, 2016
+DISALLOWED BY PAAP FOLLOWERS ={}
+DISALLOWED BY OTHERS= {"Modi", "BJP","Hindu", "RSS", "Congress", "Corruption", "Vote Bank", "Income Tax filling by PAAP", "Yogendar Yadav", "India Against Corruption", " Prashant Bhushan", "Anna Hazare", "Shanti Bhushan", "Internal Lokpal", "Kiran Bedi", "Santosh Hegde"}
